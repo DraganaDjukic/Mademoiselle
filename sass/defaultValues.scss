@@ -1,0 +1,34 @@
+
+//Colors
+
+$defaultColor: #1E1E1E;
+$defaultPinkColor: #ECD9D9;
+
+//Fonts
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+$font-family-lato: 'Lato', sans-serif;
+$latoLight: 300;
+$latoRegular: 400;
+
+@import url(../css/fonts/font.css);
+
+$font-family-bodoni: 'bodonibook';
+
+// Default parameters
+
+img {
+    max-width: 100%;
+}
+
+p {
+    color: $defaultColor;
+    font-family: $font-family-lato;
+    font-weight: $latoRegular;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font-family-bodoni;
+    color: $defaultColor;
+}

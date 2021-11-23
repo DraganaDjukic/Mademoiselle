@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap");
+@import url(../css/fonts/font.css);
+img {
+  max-width: 100%;
+}
+
+p {
+  color: #1E1E1E;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "bodonibook";
+  color: #1E1E1E;
+}
+
+/*# sourceMappingURL=defaultValues.css.map */
