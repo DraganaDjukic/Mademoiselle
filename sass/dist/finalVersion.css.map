@@ -1,1 +1,1 @@
-{"version":3,"names":[],"mappings":"","sources":["finalVersion.scss"],"sourcesContent":["\r\n@import 'defaultValues.scss';\r\n@import 'animation.scss';\r\n@import 'firstPage.scss';"],"file":"finalVersion.css"}
+{"version":3,"names":[],"mappings":"","sources":["finalVersion.scss"],"sourcesContent":["\r\n@import 'defaultValues.scss';\r\n@import 'animation.scss';\r\n\r\n@import 'firstPage.scss';\r\n@import 'services.scss';"],"file":"finalVersion.css"}

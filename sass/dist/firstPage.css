@@ -56,9 +56,9 @@
 }
 
 .our-services h3 {
+  font-size: 26.8px;
   text-align: center;
   margin-top: 24px;
-  font-size: 26.8px;
 }
 
 .our-services .box-01 {
@@ -81,10 +81,57 @@
   letter-spacing: normal;
 }
 
+.trust-professionals {
+  margin-bottom: 30px;
+}
+
+.trust-professionals h3 {
+  font-size: 26.8px;
+  text-align: center;
+}
+
+.trust-professionals .trust-professionals-items p {
+  font-weight: 300;
+  text-align: left;
+  letter-spacing: normal;
+}
+
+.trust-professionals .trust-professionals-items h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+footer .footer-box p {
+  font-size: 12px;
+  letter-spacing: -0.17px;
+  line-height: 41px;
+}
+
+footer .footer-box .social-icons {
+  color: #ecd9d9;
+}
+
+footer .footer-box .social-icons .fa-facebook-f,
+footer .footer-box .social-icons .fa-twitter,
+footer .footer-box .social-icons .fa-instagram {
+  transition: 1s linear;
+}
+
+footer .footer-box .social-icons .fa-facebook-f:hover,
+footer .footer-box .social-icons .fa-twitter:hover,
+footer .footer-box .social-icons .fa-instagram:hover {
+  transform: rotate(360deg);
+}
+
 @media (min-width: 320px) {
   .welcome h1 {
     padding: 100px 0;
     letter-spacing: 5px;
+  }
+  .our-services {
+    margin-bottom: 40px;
   }
   .our-services .box-01,
 .our-services .box-02 {
@@ -116,6 +163,9 @@
     left: 110px;
     padding: 30px;
   }
+  .our-services {
+    margin-bottom: 80px;
+  }
   .our-services h3 {
     text-align: left;
     letter-spacing: 5px;
@@ -131,6 +181,16 @@
 .our-services .box-02 h2 {
     line-height: 30px;
   }
+  .trust-professionals h3 {
+    text-align: left;
+    letter-spacing: 5px;
+    line-height: 45px;
+    font-size: 30px;
+  }
+  .trust-professionals .trust-professionals-items h2 {
+    font-size: 30px;
+    line-height: 27px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -145,6 +205,9 @@
   }
   .second-box {
     padding: 10px !important;
+  }
+  .our-services {
+    margin-bottom: 100px;
   }
   .our-services .box-01,
 .our-services .box-02 {
@@ -195,6 +258,9 @@
   .second-box {
     padding: 10px !important;
   }
+  .our-services {
+    margin-bottom: 111px;
+  }
   .our-services h3 {
     margin-top: 100px;
   }
@@ -215,6 +281,22 @@
   .our-services .box-01 h2,
 .our-services .box-02 h2 {
     line-height: 40px;
+  }
+  .trust-professionals {
+    margin-bottom: 67px;
+  }
+  .trust-professionals h3::after {
+    content: "";
+    width: 8%;
+    height: 2px;
+    background-color: #ecd9d9;
+    display: block;
+    bottom: -10px;
+    position: relative;
+  }
+  .trust-professionals .trust-professionals-items {
+    padding: 50px 70px;
+    border: 1px solid #ecd9d9;
   }
 }
 

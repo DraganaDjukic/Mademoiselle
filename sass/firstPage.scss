@@ -15,6 +15,11 @@ $font-family-bodoni: "bodonibook";
 
 //Mixin
 
+@mixin h3SmallerBP {
+    font-size: 26.8px;
+    text-align: center;
+}
+
 @mixin h3() {
     text-align: left;
     letter-spacing: 5px;
@@ -83,8 +88,7 @@ $font-family-bodoni: "bodonibook";
 
 .beauty-trends {
     h3 {
-        font-size: 26.8px;
-        text-align: center;
+        @include h3SmallerBP();
     }
 }
 
@@ -109,9 +113,8 @@ $font-family-bodoni: "bodonibook";
 
 .our-services {
     h3 {
-        text-align: center;
+        @include h3SmallerBP();
         margin-top: 24px;
-        font-size: 26.8px;
     }
 
     .box-01 {
@@ -134,10 +137,58 @@ $font-family-bodoni: "bodonibook";
     }
 }
 
-//RESPONSIVE
+//Trust our professionals
+
+.trust-professionals {
+    margin-bottom: 30px;
+    h3 {
+        @include h3SmallerBP();
+    }
+
+    .trust-professionals-items {
+        p {
+            font-weight: $latoLight;
+            text-align: left;
+            letter-spacing: normal;
+        }
+        h2 {
+            font-family: $font-family-lato;
+            font-weight: $latoRegular;
+            letter-spacing: normal;
+            text-align: left;
+        }
+    }
+}
+
+//Footer
+
+footer {
+    .footer-box {
+        p {
+            font-size: 12px;
+            letter-spacing: -0.17px;
+            line-height: 41px;
+        }
+        .social-icons {
+            color: $defaultPinkColor;
+
+            .fa-facebook-f,
+            .fa-twitter,
+            .fa-instagram {
+                transition: 1s linear;
+
+                &:hover {
+                    transform: rotate(360deg);
+                }
+            }
+        }
+    }
+}
+
+///////////////RESPONSIVE////////////
 
 @media (min-width: 320px) {
-    //320PX
+    ////////////////////////////////320PX
 
     //Welcome section
 
@@ -148,13 +199,14 @@ $font-family-bodoni: "bodonibook";
         }
     }
 
-//Our services
+    //Our services
 
     .our-services {
+        margin-bottom: 40px;
         .box-01,
         .box-02 {
-           padding-top: 25%;
-           text-align: center;
+            padding-top: 25%;
+            text-align: center;
 
             h2 {
                 font-family: $font-family-lato;
@@ -167,7 +219,7 @@ $font-family-bodoni: "bodonibook";
 }
 
 @media (min-width: 576px) {
-    //576px
+    ////////////////////////////////576PX
 
     //Welcome section
 
@@ -194,22 +246,37 @@ $font-family-bodoni: "bodonibook";
     //Our services
 
     .our-services {
+        margin-bottom: 80px;
         h3 {
             @include h3();
             margin-top: 48px;
         }
         .box-01,
         .box-02 {
-           padding-top: 30%;
+            padding-top: 30%;
             h2 {
                 line-height: 30px;
+            }
+        }
+    }
+
+    //Trust our professionals
+
+    .trust-professionals {
+        h3 {
+            @include h3();
+        }
+        .trust-professionals-items {
+            h2 {
+                font-size: 30px;
+                line-height: 27px;
             }
         }
     }
 }
 
 @media (min-width: 768px) {
-    //768px
+    ////////////////////////////////768PX
 
     //Welcome section
 
@@ -234,9 +301,10 @@ $font-family-bodoni: "bodonibook";
     //Our services
 
     .our-services {
+        margin-bottom: 100px;
         .box-01,
         .box-02 {
-           padding-top: 13%;
+            padding-top: 13%;
             text-align: center;
 
             h2 {
@@ -247,7 +315,7 @@ $font-family-bodoni: "bodonibook";
 }
 
 @media (min-width: 992px) {
-    //992px
+    ////////////////////////////////992PX
 
     //Navigation - responsive
 
@@ -302,27 +370,39 @@ $font-family-bodoni: "bodonibook";
     //Our services
 
     .our-services {
+        margin-bottom: 111px;
         h3 {
             @include h3After();
             margin-top: 100px;
         }
 
-    .box-01,
-    .box-02 {
+        .box-01,
+        .box-02 {
             padding-top: 15%;
             text-align: center;
 
             h2 {
                 line-height: 40px;
             }
-        }  
+        }
+    }
+
+    //Trust our professionals
+
+    .trust-professionals {
+        margin-bottom: 67px;
+        h3 {
+            @include h3After();
+        }
+        .trust-professionals-items {
+            padding: 50px 70px;
+            border: 1px solid $defaultPinkColor;
+        }
     }
 }
-    
- 
 
 @media (min-width: 1200px) {
-    //1200px
+    ////////////////////////////////1200PX
 
     .container {
         max-width: 1140px;
