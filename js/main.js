@@ -1,5 +1,22 @@
 $(document).ready(function(){
 
+//Our services section
+
+//Box-01
+
+let image01Size = $('.box-01-image').css('height');
+let image01NewSize = parseInt(image01Size);
+
+$('.box-01').css('height',image01NewSize);
+
+//Box-02
+
+let image02Size = $('.box-02-image').css('height');
+let image02NewSize = parseInt(image02Size);
+
+$('.box-02').css('height',image02NewSize);
+
+
 
 
 //PLUGINS JQUERY    

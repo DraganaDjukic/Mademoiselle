@@ -147,6 +147,23 @@ $font-family-bodoni: "bodonibook";
             letter-spacing: 5px;
         }
     }
+
+//Our services
+
+    .our-services {
+        .box-01,
+        .box-02 {
+           padding-top: 25%;
+           text-align: center;
+
+            h2 {
+                font-family: $font-family-lato;
+                font-size: $latoRegular;
+                letter-spacing: normal;
+                line-height: 25px;
+            }
+        }
+    }
 }
 
 @media (min-width: 576px) {
@@ -181,6 +198,13 @@ $font-family-bodoni: "bodonibook";
             @include h3();
             margin-top: 48px;
         }
+        .box-01,
+        .box-02 {
+           padding-top: 30%;
+            h2 {
+                line-height: 30px;
+            }
+        }
     }
 }
 
@@ -212,13 +236,10 @@ $font-family-bodoni: "bodonibook";
     .our-services {
         .box-01,
         .box-02 {
-            padding-top: 13%;
+           padding-top: 13%;
             text-align: center;
 
             h2 {
-                font-family: $font-family-lato;
-                font-size: $latoRegular;
-                letter-spacing: normal;
                 line-height: 30px;
             }
         }
@@ -286,15 +307,12 @@ $font-family-bodoni: "bodonibook";
             margin-top: 100px;
         }
 
-      .box-01,
+    .box-01,
     .box-02 {
             padding-top: 15%;
             text-align: center;
 
             h2 {
-                font-family: $font-family-lato;
-                font-size: $latoRegular;
-                letter-spacing: normal;
                 line-height: 40px;
             }
         }  
