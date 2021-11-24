@@ -1,11 +1,17 @@
 
-//Welcome - Services section
+//Fonts
+
+$h3-font: "Lato";
+$h3-fontWeightRegular: 400;
+$h3-fontWeightLight: 300;
+
+//WELCOME - SERVICES SECTION
 
 .services {
     margin-bottom: 40px;
 }
 
-@media(min-width: 768px){
+@media (min-width: 768px) {
     .services {
         margin-bottom: 88px;
     }
@@ -15,4 +21,55 @@
 
 .services-secondPage {
     margin-bottom: 40px;
+}
+
+//SINGLE - SERVICES SECTION
+
+.single-services {
+    margin: 40px 0;
+
+    .single-services-items {
+
+        h3 {
+            font-family: $h3-font;
+            font-weight: $h3-fontWeightRegular;
+            letter-spacing: normal;
+            align-items: left;
+        }
+        p {
+            font-weight: $h3-fontWeightLight;
+            align-items: left;
+        }
+    }
+}
+
+.single-services-footer {
+    margin-top: 80px;
+}
+
+@media (min-width: 992px) {
+
+    //Single - Services Section
+
+    .single-services {
+        margin: 100px 0 170px;
+
+        .single-services-items {
+
+            h3 {
+                line-height: 50px;
+                font-size: 44px;
+            }
+            p {
+                line-height: 26px;
+                font-size: 18px;
+                height: 12*26px;
+                overflow: hidden;
+            }
+        }
+    }
+
+    .single-services-footer {
+        margin-top: 135px;
+    }
 }

@@ -12,4 +12,43 @@
   margin-bottom: 40px;
 }
 
+.single-services {
+  margin: 40px 0;
+}
+
+.single-services .single-services-items h3 {
+  font-family: "Lato";
+  font-weight: 400;
+  letter-spacing: normal;
+  align-items: left;
+}
+
+.single-services .single-services-items p {
+  font-weight: 300;
+  align-items: left;
+}
+
+.single-services-footer {
+  margin-top: 80px;
+}
+
+@media (min-width: 992px) {
+  .single-services {
+    margin: 100px 0 170px;
+  }
+  .single-services .single-services-items h3 {
+    line-height: 50px;
+    font-size: 44px;
+  }
+  .single-services .single-services-items p {
+    line-height: 26px;
+    font-size: 18px;
+    height: 312px;
+    overflow: hidden;
+  }
+  .single-services-footer {
+    margin-top: 135px;
+  }
+}
+
 /*# sourceMappingURL=services.css.map */
