@@ -1,0 +1,92 @@
+//Colors
+
+$input-color: rgba(37, 61, 97, 0.02);
+$default-color: #1e1e1e;
+$contact-information-color: #ecd9d9;
+
+//Font
+
+$input-font: "Lato";
+$input-font-regular: 400;
+$input-font-light: 300;
+
+// Header section
+
+.header-contact {
+    margin-bottom: 30px;
+}
+
+//Contact section
+
+.contact-section {
+    h1 {
+        letter-spacing: 5px;
+        align-items: left;
+    }
+    input,
+    textarea {
+        background-color: $input-color;
+        border: none;
+        font-family: $input-font;
+        font-weight: $input-font-light;
+        color: $input-color;
+        letter-spacing: -0.23px;
+        line-height: 25px;
+        font-size: 16px;
+    }
+    button {
+        color: $default-color;
+        background-color: transparent;
+        border: 1px solid $default-color;
+        padding: 8px 15px;
+        font-family: $input-font;
+        font-weight: $input-font-regular;
+    }
+}
+
+//Contact information
+
+.contact-information {
+    padding: 60px 0;
+    background-color: $contact-information-color;
+
+    p,
+    a {
+        font-family: $input-color;
+        font-weight: $input-font-light;
+        letter-spacing: normal;
+        line-height: 25px;
+        font-size: 20px;
+        color: $default-color;
+    }
+}
+
+//Responsive
+
+@media (min-width: 768px) {
+    //Header section
+
+    .header-contact {
+        margin-bottom: 80px;
+    }
+
+    //Contact section
+    .contact-section {
+        h1 {
+            font-size: 30px;
+            line-height: 45px;
+        }
+        iframe {
+            max-width: 100%;
+        }
+    }
+
+    //Contact information
+
+    .contact-information {
+        p,
+        a {
+            font-size: 24px;
+        }
+    }
+}

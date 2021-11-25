@@ -1,0 +1,63 @@
+.header-contact {
+  margin-bottom: 30px;
+}
+
+.contact-section h1 {
+  letter-spacing: 5px;
+  align-items: left;
+}
+
+.contact-section input,
+.contact-section textarea {
+  background-color: rgba(37, 61, 97, 0.02);
+  border: none;
+  font-family: "Lato";
+  font-weight: 300;
+  color: rgba(37, 61, 97, 0.02);
+  letter-spacing: -0.23px;
+  line-height: 25px;
+  font-size: 16px;
+}
+
+.contact-section button {
+  color: #1e1e1e;
+  background-color: transparent;
+  border: 1px solid #1e1e1e;
+  padding: 8px 15px;
+  font-family: "Lato";
+  font-weight: 400;
+}
+
+.contact-information {
+  padding: 60px 0;
+  background-color: #ecd9d9;
+}
+
+.contact-information p,
+.contact-information a {
+  font-family: rgba(37, 61, 97, 0.02);
+  font-weight: 300;
+  letter-spacing: normal;
+  line-height: 25px;
+  font-size: 20px;
+  color: #1e1e1e;
+}
+
+@media (min-width: 768px) {
+  .header-contact {
+    margin-bottom: 80px;
+  }
+  .contact-section h1 {
+    font-size: 30px;
+    line-height: 45px;
+  }
+  .contact-section iframe {
+    max-width: 100%;
+  }
+  .contact-information p,
+.contact-information a {
+    font-size: 24px;
+  }
+}
+
+/*# sourceMappingURL=contact.css.map */

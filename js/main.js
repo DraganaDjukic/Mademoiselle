@@ -81,6 +81,9 @@ responsive: {
                 },
                 message: {
                     required: true
+                },
+                subject: {
+                    required: true
                 }
             },
             messages: {
@@ -93,6 +96,9 @@ responsive: {
                 },
                 message: {
                     required: 'The Message* field is required'
+                },
+                subject: {
+                    required: 'The Subject* field is required'
                 }
             },
 

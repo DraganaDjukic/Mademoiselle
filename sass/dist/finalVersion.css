@@ -471,4 +471,202 @@ footer .footer-box .social-icons .fa-instagram:hover {
   }
 }
 
+.about-section {
+  margin-bottom: 40px;
+}
+
+.about-items h1 {
+  font-family: "Lato";
+  font-weight: 400;
+  color: #1e1e1e;
+  text-align: left;
+  letter-spacing: normal;
+  line-height: 25px;
+}
+
+.about-items .about-items-paragraph {
+  font-family: "Lato";
+  font-weight: 300;
+  letter-spacing: normal;
+  text-align: left;
+  line-height: 24px;
+}
+
+.about-items input {
+  font-family: "Lato" !important;
+  font-style: italic;
+  font-weight: 400;
+  color: #1e1e1e;
+}
+
+.about-footer {
+  margin-top: 80px;
+}
+
+@media (min-width: 576px) {
+  .about-items-textBox {
+    left: 135px;
+  }
+}
+
+@media (min-width: 768px) {
+  .about-section {
+    margin-bottom: 91px;
+  }
+  .about-items-textBox {
+    left: 200px !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .about-items h1 {
+    font-size: 44px;
+    line-height: 50px;
+  }
+  .about-items .about-items-paragraph {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .about-items .about-items-textBox {
+    left: 665px !important;
+  }
+  .about-footer {
+    margin-top: 150px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .about-items .about-items-textBox {
+    left: 830px !important;
+  }
+}
+
+@media (min-width: 1300px) {
+  .about-items .about-items-textBox {
+    left: 880px !important;
+  }
+}
+
+@media (min-width: 1440px) {
+  .about-items .about-items-textBox {
+    left: 950px !important;
+  }
+}
+
+.section-404 {
+  padding: 100px 0;
+}
+
+.section-404 h1 {
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.section-404 a {
+  margin-left: 90px;
+  color: white;
+  padding: 5px 20px;
+  background-color: transparent;
+  border: 1px solid white;
+  font-family: "Lato";
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+@media (min-width: 576px) {
+  .section-404 a {
+    margin-left: 200px;
+  }
+}
+
+@media (min-width: 768px) {
+  .section-404 {
+    padding: 150px 0;
+  }
+  .section-404 a {
+    margin-left: 280px;
+  }
+}
+
+@media (min-width: 992px) {
+  .section-404 {
+    padding: 200px 0;
+  }
+  .section-404 a {
+    margin-left: 400px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .section-404 a {
+    margin-left: 500px;
+  }
+}
+
+.header-contact {
+  margin-bottom: 30px;
+}
+
+.contact-section h1 {
+  letter-spacing: 5px;
+  align-items: left;
+}
+
+.contact-section input,
+.contact-section textarea {
+  background-color: rgba(37, 61, 97, 0.02);
+  border: none;
+  font-family: "Lato";
+  font-weight: 300;
+  color: rgba(37, 61, 97, 0.02);
+  letter-spacing: -0.23px;
+  line-height: 25px;
+  font-size: 16px;
+}
+
+.contact-section button {
+  color: #1e1e1e;
+  background-color: transparent;
+  border: 1px solid #1e1e1e;
+  padding: 8px 15px;
+  font-family: "Lato";
+  font-weight: 400;
+}
+
+.contact-section .error-msg {
+  color: red;
+}
+
+.contact-information {
+  padding: 60px 0;
+  background-color: #ecd9d9;
+}
+
+.contact-information p,
+.contact-information a {
+  font-family: rgba(37, 61, 97, 0.02);
+  font-weight: 300;
+  letter-spacing: normal;
+  line-height: 25px;
+  font-size: 20px;
+  color: #1e1e1e;
+}
+
+@media (min-width: 768px) {
+  .header-contact {
+    margin-bottom: 80px;
+  }
+  .contact-section h1 {
+    font-size: 30px;
+    line-height: 45px;
+  }
+  .contact-section iframe {
+    max-width: 100%;
+  }
+  .contact-information p,
+.contact-information a {
+    font-size: 24px;
+  }
+}
+
 /*# sourceMappingURL=finalVersion.css.map */

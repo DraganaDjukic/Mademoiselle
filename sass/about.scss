@@ -1,0 +1,118 @@
+//Colors
+
+$default-color: #1e1e1e;
+
+//Fonts
+
+$font-lato: "Lato";
+$font-lato-regular: 400;
+$font-lato-light: 300;
+
+//About Section
+
+.about-section {
+    margin-bottom: 40px;
+}
+
+//About - items
+
+.about-items {
+    h1 {
+        font-family: $font-lato;
+        font-weight: $font-lato-regular;
+        color: $default-color;
+        text-align: left;
+        letter-spacing: normal;
+        line-height: 25px;
+    }
+    .about-items-paragraph {
+        font-family: $font-lato;
+        font-weight: $font-lato-light;
+        letter-spacing: normal;
+        text-align: left;
+        line-height: 24px;
+    }
+    input {
+        font-family: $font-lato !important;
+        font-style: italic;
+        font-weight: $font-lato-regular;
+        color: $default-color;
+    }
+}
+
+//About - Footer
+
+.about-footer {
+    margin-top: 80px;
+}
+
+//RESPONSIVE
+
+@media (min-width: 576px) {
+    //About -Items section
+
+    .about-items-textBox {
+        left: 135px;
+    }
+}
+
+@media (min-width: 768px) {
+    //About section
+    .about-section {
+        margin-bottom: 91px;
+    }
+
+    //About - items section
+    .about-items-textBox {
+        left: 200px !important;
+    }
+}
+
+@media (min-width: 992px) {
+    //About-Items section
+
+    .about-items {
+        h1 {
+            font-size: 44px;
+            line-height: 50px;
+        }
+        .about-items-paragraph {
+            font-size: 20px;
+            line-height: 28px;
+        }
+        .about-items-textBox {
+            left: 665px !important;
+        }
+    }
+
+    //About - Footer
+
+    .about-footer {
+        margin-top: 150px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .about-items {
+        .about-items-textBox {
+            left: 830px !important;
+        }
+    }
+}
+
+@media (min-width: 1300px) {
+    .about-items {
+        .about-items-textBox {
+            left: 880px !important;
+        }
+    }
+}
+
+@media (min-width: 1440px) {
+    .about-items {
+        .about-items-textBox {
+            left: 950px !important;
+        }
+    }
+}
+
