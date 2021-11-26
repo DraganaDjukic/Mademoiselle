@@ -1,0 +1,104 @@
+//Fonts
+
+$tagFont: "bodonibook";
+$fontRegular: 400;
+$fontLight: 300;
+
+$defaultFont: "Lato";
+
+//Colors
+
+$defaultColor: #1E1E1E;
+
+//Header starts - Navigation
+
+.blog-navigation {
+    margin-bottom: 30px;
+}
+
+///////////////////Responsive start
+
+@media (min-width: 992px) {
+    //Navigation
+
+    .blog-navigation {
+        margin-bottom: 160px;
+    }
+
+    //Blog services section
+    .blog-services-section {
+        margin-bottom: 97px !important;
+        .blog-services-article {
+            h1 {
+                line-height: 50px;
+                font-size: 44px;
+            }
+        }
+    }
+
+    //Blog services text
+
+    .blog-services-text {
+        margin-bottom: 273px;
+    }
+}
+
+////////////////////Responsive end
+
+//Blog services section
+
+.blog-services-section {
+    margin-bottom: 30px;
+    .blog-services-article {
+        .first-paragraph {
+            font-family: $tagFont;
+            letter-spacing: 1px;
+            line-height: 17px;
+            font-size: 14px;
+            font-weight: $fontRegular;
+        }
+        span {
+            font-style: italic;
+        }
+        h1 {
+            font-family: $defaultFont;
+            font-weight: $fontRegular;
+            letter-spacing: normal;
+            line-height: 30px;
+            font-size: 30px;
+        }
+        .second-paragraph {
+            font-family: $defaultFont;
+            font-weight: $fontLight;
+            font-size: 20px;
+            line-height: 28px;
+            letter-spacing: normal;
+        }
+    }
+}
+
+//Blog services text 
+
+.blog-services-text {
+    margin-bottom: 150px;
+    p {
+        font-family: $defaultFont;
+        font-weight: $fontLight;
+        font-size: 18px;
+        line-height: 26px;
+        letter-spacing: normal; 
+        text-align: justify;
+    }
+    .tags-paragraph {
+        font-family: $tagFont;
+        font-style: italic;
+        font-size: 16px;
+        line-height: 27px;
+        letter-spacing: normal;
+    }
+    .tag-button {
+        color: $defaultColor !important;
+        background-color: #F5F5F5;
+    }
+}
+

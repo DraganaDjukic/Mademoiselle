@@ -20,6 +20,10 @@
   transition: 1s linear;
 }
 
+.navbar .navbar-nav .nav-item .active {
+  color: #ecd9d9;
+}
+
 .welcome {
   background-position: center;
   background-repeat: no-repeat;

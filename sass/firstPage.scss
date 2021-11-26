@@ -66,6 +66,9 @@ $font-family-bodoni: "bodonibook";
                 position: relative;
                 transition: 1s linear;
             }
+            .active {
+                color:$defaultPinkColor;
+            }
         }
     }
 }
