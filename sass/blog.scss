@@ -1,0 +1,72 @@
+//Colors
+
+$defaultColor: #1e1e1e;
+
+//Fonts
+
+$defaultParagraphFont: "bodonibook";
+$defaultHeadingFont: "Lato";
+$fontWeightRegular: 400;
+$fontWeightLight: 300;
+
+//Welcome blog section
+
+.blog {
+    margin-bottom: 60px;
+}
+
+@media (min-width: 992px) {
+    .blog {
+        margin-bottom: 88px;
+    }
+}
+
+//Blog items section
+
+.blog-section {
+    .blog-items-text {
+        display: inline-block;
+        position: relative;
+        bottom: 80px;
+        padding: 20px;
+        background-color: white;
+        text-align: center;
+        width: 75%;
+        text-decoration: none;
+
+        p {
+            font-family: $defaultParagraphFont;
+            color: $defaultColor;
+            font-style: italic;
+            line-height: 17px;
+            font-size: 14px;
+        }
+        h6 {
+            font-family: $defaultHeadingFont;
+            color: $defaultColor;
+            line-height: 24px;
+            font-size: 16px; 
+            font-weight: $fontWeightRegular;
+        }
+    }
+}
+
+//Bootstrap pagination
+
+.pagination {
+    .page-item {
+        .page-link {
+            color: $defaultColor;
+            border: none;
+            font-family: $defaultParagraphFont;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: normal;
+        }
+        
+    }
+}
+
+.arrow {
+            color: lighten($defaultColor , 50%) !important;
+        }

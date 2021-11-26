@@ -18,6 +18,11 @@ $lato: 'Lato';
         font-family: $lato;
         font-size: 14px;
         letter-spacing: 0.5px;
+
+        &:hover {
+            background-color: white;
+            color: black;
+        }
     }
 }
 

@@ -26,22 +26,33 @@
   color: #1e1e1e;
 }
 
-.about-footer {
-  margin-top: 80px;
+.about-items .fas {
+  left: -30px !important;
 }
 
-@media (min-width: 576px) {
-  .about-items-textBox {
-    left: 135px;
-  }
+.about-items .blog-article .blog-items-text p {
+  font-family: 'bodonibook';
+  color: #1e1e1e;
+  font-style: italic;
+  line-height: 17px;
+  font-size: 14px;
+}
+
+.about-items .blog-article .blog-items-text h6 {
+  font-family: "Lato";
+  color: #1e1e1e;
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.about-footer {
+  margin-top: 80px;
 }
 
 @media (min-width: 768px) {
   .about-section {
     margin-bottom: 91px;
-  }
-  .about-items-textBox {
-    left: 200px !important;
   }
 }
 
@@ -54,29 +65,8 @@
     font-size: 20px;
     line-height: 28px;
   }
-  .about-items .about-items-textBox {
-    left: 665px !important;
-  }
   .about-footer {
     margin-top: 150px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .about-items .about-items-textBox {
-    left: 830px !important;
-  }
-}
-
-@media (min-width: 1300px) {
-  .about-items .about-items-textBox {
-    left: 880px !important;
-  }
-}
-
-@media (min-width: 1440px) {
-  .about-items .about-items-textBox {
-    left: 950px !important;
   }
 }
 

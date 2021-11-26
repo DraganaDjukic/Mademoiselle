@@ -38,6 +38,27 @@ $font-lato-light: 300;
         font-weight: $font-lato-regular;
         color: $default-color;
     }
+    .fas {
+        left: -30px !important;
+    }
+    .blog-article {
+        .blog-items-text {
+            p {
+                font-family: 'bodonibook';
+                color: $default-color;
+                font-style: italic;
+                line-height: 17px;
+                font-size: 14px;
+            }
+            h6 {
+                font-family: $font-lato;
+                color: $default-color;
+                line-height: 24px;
+                font-size: 16px; 
+                font-weight: $font-lato-regular;
+            }
+        }
+    }
 }
 
 //About - Footer
@@ -48,27 +69,15 @@ $font-lato-light: 300;
 
 //RESPONSIVE
 
-@media (min-width: 576px) {
-    //About -Items section
-
-    .about-items-textBox {
-        left: 135px;
-    }
-}
-
 @media (min-width: 768px) {
     //About section
     .about-section {
         margin-bottom: 91px;
     }
-
-    //About - items section
-    .about-items-textBox {
-        left: 200px !important;
-    }
 }
 
 @media (min-width: 992px) {
+    
     //About-Items section
 
     .about-items {
@@ -80,9 +89,6 @@ $font-lato-light: 300;
             font-size: 20px;
             line-height: 28px;
         }
-        .about-items-textBox {
-            left: 665px !important;
-        }
     }
 
     //About - Footer
@@ -91,28 +97,3 @@ $font-lato-light: 300;
         margin-top: 150px;
     }
 }
-
-@media (min-width: 1200px) {
-    .about-items {
-        .about-items-textBox {
-            left: 830px !important;
-        }
-    }
-}
-
-@media (min-width: 1300px) {
-    .about-items {
-        .about-items-textBox {
-            left: 880px !important;
-        }
-    }
-}
-
-@media (min-width: 1440px) {
-    .about-items {
-        .about-items-textBox {
-            left: 950px !important;
-        }
-    }
-}
-

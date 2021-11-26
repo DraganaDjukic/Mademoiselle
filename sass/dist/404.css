@@ -18,6 +18,11 @@
   letter-spacing: 0.5px;
 }
 
+.section-404 a:hover {
+  background-color: white;
+  color: black;
+}
+
 @media (min-width: 576px) {
   .section-404 a {
     margin-left: 200px;
